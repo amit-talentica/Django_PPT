@@ -1,0 +1,37 @@
+
+
+1. pip install django
+or
+pipenv install django
+
+To install pipenv (sudo pip install pipenv)
+TO Activate virtualenv (pipenv shell)
+
+2. To check Django version
+django-admin --version
+
+3. create django project
+django-admin startproject project name
+eg:
+django-admin startproject boards_app
+then go to boards_app (cd boards_app)
+4. dir
+5. pipfile --------Here we can see the python version
+6. pipfile.lock ------------Here we can see the python packages and hash function which is required by django.
+
+7. settings.py file ----------- Here all settings will be present
+
+8. now if i want to create an application then
+python manage.py startapp boards
+(After running this command one folder will be created name (boards)
+
+9. now add application name into settings.py file (installed app)
+10. Write application
+(For this start development server)
+python manage.py runserver
+
+11. write your first view
+12. sudo fuser -k 8000/tcp (in case of Error: That port is already in use.
+
+
+
